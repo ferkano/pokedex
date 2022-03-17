@@ -1,0 +1,61 @@
+.main,
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.7rem;
+    padding: 0 5rem;
+    justify-content: center;
+}
+html{
+    font-size: 0.6rem;
+}
+header .logo{
+    margin-inline-start: 2rem;
+}
+header .panel-btn{
+    display: none;
+}
+
+header .nav{
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+    position: relative;
+    z-index: 0s;
+    transition: none;
+    flex-direction:row;
+    width: 25%;
+}
+header .nav a{
+    font-size: 1.5rem;
+}
+header .nav a:hover{
+    background: transparent;
+}
+.data{
+    width: 240%;
+}
+.data-details h4{
+    background: transparent;
+}
+.type-containt{
+    margin-inline-start: 7.5rem;
+}
+.type-buton{
+    width: 20%;
+}
+.evolution{
+    width: 40%;
+}
+.chart-container{
+    width: 80%;
+    
+}
+.scroll-top-btn,
+.back{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+
+
