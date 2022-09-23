@@ -14,6 +14,8 @@ export async function InfiteScroll() {
     //console.log(api.offset);
     let { scrollTop, clientHeight, scrollHeight } = d.documentElement;
     let { hash } = w.location;
+    
+    console.log(scrollHeight,clientHeight,scrollTop,hash);
 
     if (scrollTop + clientHeight >= scrollHeight) {
       if (!hash || hash === "#/home") {
